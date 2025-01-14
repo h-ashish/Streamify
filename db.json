@@ -1,0 +1,467 @@
+{
+  "userGrowthData": [
+    {
+      "month": "Jan",
+      "totalUsers": 1200,
+      "activeUsers": 800
+    },
+    {
+      "month": "Feb",
+      "totalUsers": 1500,
+      "activeUsers": 1000
+    },
+    {
+      "month": "Mar",
+      "totalUsers": 2000,
+      "activeUsers": 1500
+    },
+    {
+      "month": "Apr",
+      "totalUsers": 2500,
+      "activeUsers": 1900
+    },
+    {
+      "month": "May",
+      "totalUsers": 3000,
+      "activeUsers": 2200
+    },
+    {
+      "month": "Jun",
+      "totalUsers": 3500,
+      "activeUsers": 2700
+    },
+    {
+      "month": "Jul",
+      "totalUsers": 4000,
+      "activeUsers": 3100
+    },
+    {
+      "month": "Aug",
+      "totalUsers": 4500,
+      "activeUsers": 3800
+    },
+    {
+      "month": "Sep",
+      "totalUsers": 5000,
+      "activeUsers": 4200
+    },
+    {
+      "month": "Oct",
+      "totalUsers": 5500,
+      "activeUsers": 4700
+    },
+    {
+      "month": "Nov",
+      "totalUsers": 6000,
+      "activeUsers": 5200
+    },
+    {
+      "month": "Dec",
+      "totalUsers": 6500,
+      "activeUsers": 5800
+    }
+  ],
+  "topSongsData": [
+    {
+      "name": "Imagine",
+      "streams": 4023
+    },
+    {
+      "name": "Billie Jean",
+      "streams": 4998
+    },
+    {
+      "name": "Yesterday",
+      "streams": 1082
+    },
+    {
+      "name": "Bad Habits",
+      "streams": 4239
+    },
+    {
+      "name": "Hotel California",
+      "streams": 3436
+    }
+  ],
+  "recentStreams": {
+    "rows": [
+      {
+        "id": 1,
+        "songName": "Blinding Lights",
+        "artist": "The Weeknd",
+        "dateStreamed": "2025-01-10",
+        "streamCount": 12345,
+        "userId": "U1001"
+      },
+      {
+        "id": 2,
+        "songName": "Levitating",
+        "artist": "Dua Lipa",
+        "dateStreamed": "2025-01-09",
+        "streamCount": 9876,
+        "userId": "U1002"
+      },
+      {
+        "id": 3,
+        "songName": "Shape of You",
+        "artist": "Ed Sheeran",
+        "dateStreamed": "2025-01-08",
+        "streamCount": 15000,
+        "userId": "U1003"
+      },
+      {
+        "id": 4,
+        "songName": "Stay",
+        "artist": "The Kid LAROI",
+        "dateStreamed": "2025-01-07",
+        "streamCount": 11000,
+        "userId": "U1004"
+      },
+      {
+        "id": 5,
+        "songName": "Industry Baby",
+        "artist": "Lil Nas X",
+        "dateStreamed": "2025-01-06",
+        "streamCount": 8000,
+        "userId": "U1005"
+      },
+      {
+        "id": 6,
+        "songName": "Drivers License",
+        "artist": "Olivia Rodrigo",
+        "dateStreamed": "2025-01-05",
+        "streamCount": 9500,
+        "userId": "U1006"
+      },
+      {
+        "id": 7,
+        "songName": "Bad Habits",
+        "artist": "Ed Sheeran",
+        "dateStreamed": "2025-01-04",
+        "streamCount": 7000,
+        "userId": "U1007"
+      },
+      {
+        "id": 8,
+        "songName": "Montero",
+        "artist": "Lil Nas X",
+        "dateStreamed": "2025-01-03",
+        "streamCount": 12000,
+        "userId": "U1008"
+      },
+      {
+        "id": 9,
+        "songName": "Easy on Me",
+        "artist": "Adele",
+        "dateStreamed": "2025-01-02",
+        "streamCount": 13500,
+        "userId": "U1009"
+      },
+      {
+        "id": 10,
+        "songName": "Peaches",
+        "artist": "Justin Bieber",
+        "dateStreamed": "2025-01-01",
+        "streamCount": 5000,
+        "userId": "U1010"
+      }
+    ],
+    "columns": [
+      {
+        "field": "songName",
+        "headerName": "Song Name",
+        "width": 200,
+        "sortable": true
+      },
+      {
+        "field": "artist",
+        "headerName": "Artist",
+        "width": 150,
+        "sortable": true
+      },
+      {
+        "field": "dateStreamed",
+        "headerName": "Date Streamed",
+        "width": 150,
+        "type": "date",
+        "valueFormatter": "formatDate"
+      },
+      {
+        "field": "streamCount",
+        "headerName": "Stream Count",
+        "width": 150,
+        "type": "number",
+        "sortable": true
+      },
+      {
+        "field": "userId",
+        "headerName": "User ID",
+        "width": 150
+      }
+    ]
+  },
+  "revenueData": {
+    "columns": [
+      {
+        "field": "category",
+        "headerName": "Category",
+        "width": 200
+      },
+      {
+        "field": "personName",
+        "headerName": "Person Name",
+        "width": 200
+      },
+      {
+        "field": "dateOfPurchase",
+        "headerName": "Date of Purchase",
+        "width": 200
+      },
+      {
+        "field": "userId",
+        "headerName": "User ID",
+        "width": 200
+      },
+      {
+        "field": "totalRevenueGenerated",
+        "headerName": "Total Revenue Generated ($)",
+        "width": 200
+      },
+      {
+        "field": "transactionId",
+        "headerName": "Transaction ID",
+        "width": 200
+      }
+    ],
+    "rows": [
+      {
+        "id": 1,
+        "category": "Subscriptions",
+        "personName": "Alice Johnson",
+        "dateOfPurchase": "2024-01-12",
+        "userId": "U001",
+        "totalRevenueGenerated": 120.5,
+        "transactionId": "T001"
+      },
+      {
+        "id": 2,
+        "category": "Ads",
+        "personName": "Bob Smith",
+        "dateOfPurchase": "2024-02-14",
+        "userId": "U002",
+        "totalRevenueGenerated": 340.25,
+        "transactionId": "T002"
+      },
+      {
+        "id": 3,
+        "category": "Partners",
+        "personName": "Charlie Brown",
+        "dateOfPurchase": "2024-03-18",
+        "userId": "U003",
+        "totalRevenueGenerated": 5000,
+        "transactionId": "T003"
+      },
+      {
+        "id": 4,
+        "category": "Royalties",
+        "personName": "Diana Prince",
+        "dateOfPurchase": "2024-04-10",
+        "userId": "U004",
+        "totalRevenueGenerated": 780,
+        "transactionId": "T004"
+      },
+      {
+        "id": 5,
+        "category": "Merchandise",
+        "personName": "Eve Adams",
+        "dateOfPurchase": "2024-05-22",
+        "userId": "U005",
+        "totalRevenueGenerated": 230,
+        "transactionId": "T005"
+      },
+      {
+        "id": 6,
+        "category": "Subscriptions",
+        "personName": "Frank Miller",
+        "dateOfPurchase": "2024-06-15",
+        "userId": "U006",
+        "totalRevenueGenerated": 99.99,
+        "transactionId": "T006"
+      },
+      {
+        "id": 7,
+        "category": "Ads",
+        "personName": "Grace Lee",
+        "dateOfPurchase": "2024-07-08",
+        "userId": "U007",
+        "totalRevenueGenerated": 450.5,
+        "transactionId": "T007"
+      },
+      {
+        "id": 8,
+        "category": "Stakeholders",
+        "personName": "Henry Ford",
+        "dateOfPurchase": "2024-08-01",
+        "userId": "U008",
+        "totalRevenueGenerated": 8500,
+        "transactionId": "T008"
+      },
+      {
+        "id": 9,
+        "category": "Partners",
+        "personName": "Ivy Carter",
+        "dateOfPurchase": "2024-09-09",
+        "userId": "U009",
+        "totalRevenueGenerated": 6000,
+        "transactionId": "T009"
+      },
+      {
+        "id": 10,
+        "category": "Royalties",
+        "personName": "Jack Sparrow",
+        "dateOfPurchase": "2024-10-20",
+        "userId": "U010",
+        "totalRevenueGenerated": 950,
+        "transactionId": "T010"
+      },
+      {
+        "id": 11,
+        "category": "Merchandise",
+        "personName": "Kate Winslet",
+        "dateOfPurchase": "2024-11-15",
+        "userId": "U011",
+        "totalRevenueGenerated": 310.75,
+        "transactionId": "T011"
+      },
+      {
+        "id": 12,
+        "category": "Subscriptions",
+        "personName": "Leo DiCaprio",
+        "dateOfPurchase": "2024-12-05",
+        "userId": "U012",
+        "totalRevenueGenerated": 150,
+        "transactionId": "T012"
+      },
+      {
+        "id": 13,
+        "category": "Ads",
+        "personName": "Mia Wallace",
+        "dateOfPurchase": "2024-12-20",
+        "userId": "U013",
+        "totalRevenueGenerated": 380.5,
+        "transactionId": "T013"
+      },
+      {
+        "id": 14,
+        "category": "Partners",
+        "personName": "Nathan Drake",
+        "dateOfPurchase": "2024-12-25",
+        "userId": "U014",
+        "totalRevenueGenerated": 5500,
+        "transactionId": "T014"
+      },
+      {
+        "id": 15,
+        "category": "Royalties",
+        "personName": "Olivia Benson",
+        "dateOfPurchase": "2024-12-30",
+        "userId": "U015",
+        "totalRevenueGenerated": 875,
+        "transactionId": "T015"
+      },
+      {
+        "id": 16,
+        "category": "Stakeholders",
+        "personName": "Peter Parker",
+        "dateOfPurchase": "2024-12-31",
+        "userId": "U016",
+        "totalRevenueGenerated": 9999,
+        "transactionId": "T016"
+      },
+      {
+        "id": 17,
+        "category": "Merchandise",
+        "personName": "Quinn Harris",
+        "dateOfPurchase": "2024-01-03",
+        "userId": "U017",
+        "totalRevenueGenerated": 520.75,
+        "transactionId": "T017"
+      },
+      {
+        "id": 18,
+        "category": "Subscriptions",
+        "personName": "Rachel Green",
+        "dateOfPurchase": "2024-01-08",
+        "userId": "U018",
+        "totalRevenueGenerated": 119.99,
+        "transactionId": "T018"
+      },
+      {
+        "id": 19,
+        "category": "Ads",
+        "personName": "Steve Rogers",
+        "dateOfPurchase": "2024-01-12",
+        "userId": "U019",
+        "totalRevenueGenerated": 410,
+        "transactionId": "T019"
+      },
+      {
+        "id": 20,
+        "category": "Partners",
+        "personName": "Tony Stark",
+        "dateOfPurchase": "2024-01-15",
+        "userId": "U020",
+        "totalRevenueGenerated": 7500,
+        "transactionId": "T020"
+      }
+    ]
+  },
+  "regionData": [
+    {
+      "region": "Europe",
+      "value": 2700
+    },
+    {
+      "region": "Asia",
+      "value": 3200
+    },
+    {
+      "region": "Pacific",
+      "value": 1500
+    },
+    {
+      "region": "Middle East",
+      "value": 800
+    },
+    {
+      "region": "Africa",
+      "value": 1200
+    },
+    {
+      "region": "Americas",
+      "value": 3000
+    }
+  ],
+  "countrySessions": [
+    {
+      "country": "Australia",
+      "sessions": 734,
+      "percentage": 8
+    },
+    {
+      "country": "Indonesia",
+      "sessions": 689,
+      "percentage": 7.2
+    },
+    {
+      "country": "Thailand",
+      "sessions": 562,
+      "percentage": 6.2
+    },
+    {
+      "country": "Germany",
+      "sessions": 653,
+      "percentage": 5.4
+    }
+  ]
+}
