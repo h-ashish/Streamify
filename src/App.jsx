@@ -37,8 +37,8 @@ function App() {
       date.setMonth(date.getMonth() - 1);
       return date.toLocaleString("en-US", { month: "short" });
     };
-    if (state.userGrowthData && state.recentStreams) {
-      state.userGrowthData.forEach((val) => {
+    if (state?.userGrowthData && state?.recentStreams) {
+      state?.userGrowthData?.forEach((val) => {
         if (val.month === getPreviousMonth()) {
           finalObj = {
             ...finalObj,
@@ -58,7 +58,7 @@ function App() {
       finalObj = { ...finalObj, totalStreams, topArtist, revenue: 47856.64 };
     }
     dispatch({ type: "UPDATE_CARD_INFO", payload: finalObj });
-  }, [dispatch, state.recentStreams, state.userGrowthData]);
+  }, [dispatch, state?.recentStreams, state?.userGrowthData]);
 
   return (
     <>

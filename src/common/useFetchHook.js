@@ -16,7 +16,7 @@ const useFetch = (url, dispatch, actionType) => {
         }
         const data = await result.json();
         if (isMounted && dispatch && actionType) {
-          dispatch({ type: actionType, payload: data });
+          dispatch({ type: actionType, payload: data?.record });
         }
       } catch (error) {
         if (isMounted) {

@@ -1,6 +1,10 @@
-export const userGrowthApi = "http://localhost:3000/userGrowthData";
-export const revenueData = "http://localhost:3000/revenueData";
-export const topSongsData = "http://localhost:3000/topSongsData";
-export const recentStreams = "http://localhost:3000/recentStreams";
-export const regionData = "http://localhost:3000/regionData";
-export const countrySessions = "http://localhost:3000/countrySessions";
+export const userGrowthApi =
+  "https://api.jsonbin.io/v3/b/678694d9e41b4d34e4776519";
+export const revenueData =
+  "https://api.jsonbin.io/v3/b/67869561ad19ca34f8ed1b73";
+export const recentStreams =
+  "https://api.jsonbin.io/v3/b/678695a6e41b4d34e477657f";
+export const regionData =
+  "https://api.jsonbin.io/v3/b/678695e3ad19ca34f8ed1bbc";
+export const countrySessions =
+  "https://api.jsonbin.io/v3/b/67869611acd3cb34a8cb9fbb";
